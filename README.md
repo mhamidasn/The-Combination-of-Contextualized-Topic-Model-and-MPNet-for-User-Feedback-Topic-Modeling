@@ -14,8 +14,11 @@ Mohammad Hamid Asnawi<sup>1</sup>, Anindya Apriliyanti Pravitasari<sup>1</sup>, 
 
 
 ## Dataset
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.10204232-blue)](https://doi.org/10.5281/zenodo.10204232)
 
-The dataset used in this study will soon be published in Zenodo.
+We have released the "User Feedback Dataset from the Top 15 Downloaded Mobile Applications." The dataset is available on [Zenodo](https://zenodo.org/records/10204232).
+If you use the dataset, please cite both the [dataset](https://zenodo.org/records/10204232) and the [paper](https://doi.org/10.1109/ACCESS.2023.3332644) 
+
 
 ## Requirements
 
@@ -30,18 +33,34 @@ pip install -r requirements.txt
 ```
 
 
-## Citation 
+## Citation (BibTeX)
 
-If you cite our paper or use our code or data, please cite our paper:
+Paper - _"The The Combination of Contextualized Topic Model and MPNet for User Feedback Topic Modeling"_
 ```
 @ARTICLE{10318123,
   author={Asnawi, Mohammad Hamid and Pravitasari, Anindya Apriliyanti and Herawan, Tutut and Hendrawati, Triyani},
   journal={IEEE Access}, 
   title={The Combination of Contextualized Topic Model and MPNet for User Feedback Topic Modeling}, 
   year={2023},
-  volume={},
+  volume={11},
   number={},
-  pages={1-1},
-  doi={10.1109/ACCESS.2023.3332644}
+  pages={130272-130286},
+  doi={10.1109/ACCESS.2023.3332644}}
+
+}
+```
+
+Dataset - _"User Feedback Dataset from the Top 15 Downloaded Mobile Applications"_
+```
+@article{---,
+  author = {Asnawi, Mohammad Hamid and Pravitasari, Anindya Apriliyanti and Herawan, Tutut and Hendrawati, Triyani},
+  title = {User Feedback Dataset from the Top 15 Downloaded Mobile Applications},
+  journal = {The Combination of Contextualized Topic Model and MPNet for User Feedback Topic Modeling},
+  volume = {11},
+  pages = {130272--130286},
+  year = {2023},
+  month = nov,
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.10204232},
 }
 ```
